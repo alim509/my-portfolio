@@ -96,11 +96,11 @@ function App() {
 
               <div className="stats-grid">
                 <div className="card stat-card">
-                  <p className="stat-number">3+</p>
+                  <p className="stat-number">2+</p>
                   <p>Featured Projects</p>
                 </div>
                 <div className="card stat-card">
-                  <p className="stat-number">10+</p>
+                  <p className="stat-number">15+</p>
                   <p>Core Skills</p>
                 </div>
               </div>
@@ -112,7 +112,6 @@ function App() {
           <div className="container">
             <div className="card">
               <p className="eyebrow">About</p>
-              <h3>A clean base you can grow fast</h3>
                 <p className="section-text">
                   I am a Fraud Data Analyst and Integration Developer at FAST Enterprises, focused on building fraud detection and data-driven systems for government agencies.
                 </p>
