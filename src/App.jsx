@@ -3,39 +3,40 @@ import './App.css'
 function App() {
   const projects = [
     {
-      title: 'Integration Project One',
+      title: 'SpeakEasy – AI Language Platform',
       description:
-        'A placeholder project for an API or integration build. Replace this with a real project summary, stack, and outcome.',
-      tech: ['React', 'REST API', 'JSON'],
-      link: '#',
+        'AI-powered language learning platform with real-time conversational practice, REST API integration, and full-stack architecture using React and Node.js.',
+      tech: ['React', 'Node.js', 'MongoDB', 'API Integration', 'AI Integration'],
+      link: 'https://github.com/Capstone-Projects-2024-Spring/project-speakeasy.git',
     },
     {
-      title: 'Integration Project Two',
+      title: 'Connect4 – Voice Control',
       description:
-        'Use this to describe a transformation, middleware, or automation project with measurable impact.',
-      tech: ['XML', 'XSLT', 'Node.js'],
-      link: '#',
-    },
-    {
-      title: 'Integration Project Three',
-      description:
-        'Highlight a project that shows backend logic, data mapping, or enterprise workflow understanding.',
-      tech: ['Python', 'Workflows', 'APIs'],
-      link: '#',
-    },
+        'Voice-controlled Connect 4 game that converts speech into validated moves with real-time input processing and a heuristic-based AI opponent.',
+      tech: ['Python', 'Speech Recognition', 'Input Processing', 'Heuristic AI'],
+      link: 'https://github.com/cis3296f23/Connect4_SpeechRecognition.git',
+    }
   ]
 
   const skills = [
-    'React',
-    'JavaScript',
-    'REST APIs',
-    'JSON',
-    'XML',
-    'XSLT',
-    'Python',
-    'Integration Design',
-    'Data Mapping',
-    'Troubleshooting',
+      "C#",
+      "SQL",
+      "JavaScript",
+      "Python",
+      "React",
+      "Node.js",
+      "REST APIs",
+      "API Integration",
+      "Data Transformation (JSON / XML)",
+      "AWS",
+      "Cloud Computing",
+      "Backend Development",
+      "Data Analysis",
+      "Fraud Detection Systems",
+      "Workflow Automation",
+      "System Design",
+      "Git",
+      "Linux"
   ]
 
   return (
@@ -62,13 +63,13 @@ function App() {
             <div>
               <p className="eyebrow">Portfolio Website</p>
               <h2 className="hero-title">
-                Building modern integration and API solutions.
+                Building fraud detection and data-driven backend systems.
               </h2>
               <p className="hero-text">
-                I design and build technical solutions across APIs, data
-                transformation, automation, and backend workflows. This site is
-                a starting point for showcasing projects, technical strengths,
-                and business impact.
+                I build scalable backend solutions using C#, SQL, and AWS,
+                specializing in API integration, data transformation,and system
+                automation. My focus is on developing reliable systems that
+                analyze complex data and support critical business workflows.
               </p>
 
               <div className="hero-buttons">
@@ -84,10 +85,12 @@ function App() {
             <div className="hero-cards">
               <div className="card">
                 <p className="card-label">Current Focus</p>
-                <h3>Enterprise integrations</h3>
+                <h3>Fraud Analysis & Backend Development</h3>
                 <p>
-                  APIs, structured data, transformations, validation logic, and
-                  systems that connect business workflows.
+                  <li>API Integration & Distributed System Design</li>
+                  <li>Data Transformation & Pipeline Processing (JSON, XML)</li>
+                  <li>Fraud Detection & Analytical Systems</li>
+                  <li>Workflow Automation & Scalable Backend Solutions</li>
                 </p>
               </div>
 
@@ -110,11 +113,25 @@ function App() {
             <div className="card">
               <p className="eyebrow">About</p>
               <h3>A clean base you can grow fast</h3>
-              <p className="section-text">
-                Replace this section with a short introduction about your
-                background, what you specialize in, and the kinds of roles you
-                are targeting. Keep it concise, clear, and focused on value.
-              </p>
+                <p className="section-text">
+                  I am a Fraud Data Analyst and Integration Developer at FAST Enterprises, focused on building fraud detection and data-driven systems for government agencies.
+                </p>
+
+                <p className="section-text">
+                  I specialize in backend development using C#, SQL, and AWS, with a strong emphasis on API integrations, data transformation (JSON/XML), and workflow automation.
+                </p>
+
+                <p className="section-text">
+                  My work involves analyzing complex datasets to detect fraudulent activity and developing scalable solutions that improve operational efficiency.
+                </p>
+
+                <p className="section-text">
+                  I collaborate closely with stakeholders to translate business requirements into reliable technical systems that enhance services and streamline processes.
+                </p>
+
+                <p className="section-text">
+                  I hold a B.S. in Computer Science from Temple University with a focus in Cybersecurity, and have experience across full-stack development, cloud technologies, and system design.
+                </p>
             </div>
           </div>
         </section>
@@ -169,11 +186,6 @@ function App() {
             <div className="card contact-card">
               <p className="eyebrow">Contact</p>
               <h3 className="section-title">Let’s connect</h3>
-              <p className="section-text">
-                Add your email, LinkedIn, GitHub, and any other place you want
-                recruiters or hiring managers to reach you.
-              </p>
-
               <div className="contact-links">
                 <a
                   href="mailto:angelovinolim@gmail.com"
